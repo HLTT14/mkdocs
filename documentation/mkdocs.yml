@@ -1,0 +1,27 @@
+site_name: راهنمای کاربری موتور گردش‌کار
+site_url: https://venice.ir:8000/help
+theme:
+  name: material
+  direction: rtl
+  logo: images/logo.png
+  favicon: images/logo.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+nav:
+  - خانه: index.md
+  - واسط کاربری: user-interface.md
+  - راهنمای طراحی گردش‌کار: workflow-design.md
+  - وب‌سرویس‌های موتور گردش‌کار: workflow-engine-web-services.md
+  - وب‌سرویس‌های انتقال پیام کاربر: user-messaging-web-services.md
+plugins:
+  - search:
+      lang: ar
+extra_css:
+  - css/style.css
